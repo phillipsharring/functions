@@ -1,0 +1,10 @@
+{
+  "name": "phharrin/functions",
+  "description": "Phillip Harrington's Functions",
+  "license": "MIT",
+  "keywords": [ "functions", "library" ],
+  "homepage": "http://10.80.6.10/phharrin/functions",
+  "autoload": {
+    "files": ["src/functions.php"]
+  },
+}
