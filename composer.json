@@ -6,5 +6,5 @@
   "homepage": "http://10.80.6.10/phharrin/functions",
   "autoload": {
     "files": ["src/functions.php"]
-  },
+  }
 }
