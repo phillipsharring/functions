@@ -4,7 +4,17 @@
   "license": "MIT",
   "keywords": [ "functions", "library" ],
   "homepage": "http://10.80.6.10/phharrin/functions",
+  "require": {
+    "php": ">=5.5.9",
+    "ext-mbstring": "*",
+    "symfony/var-dumper": "~3.0.3",
+  },
   "autoload": {
-    "files": ["src/functions.php"]
+    "psr-4": {
+      "Phharrin\\Functions\\": "src/"
+    },
+    "files": [
+      "src/functions.php"
+    ]
   }
 }
