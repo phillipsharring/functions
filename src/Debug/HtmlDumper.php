@@ -1,6 +1,6 @@
 <?php
 
-namespace Phharrin\Debug;
+namespace Phharrin\Functions\Debug;
 
 use Symfony\Component\VarDumper\Dumper\HtmlDumper as SymfonyHtmlDumper;
 
