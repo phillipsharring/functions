@@ -9,6 +9,8 @@ class HtmlDumper extends SymfonyHtmlDumper
     /**
      * Colour definitions for output.
      *
+     * Yes, these were borrowed from Laravel
+     *
      * @var array
      */
     protected $styles = [

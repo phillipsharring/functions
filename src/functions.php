@@ -9,12 +9,22 @@ if (!function_exists('protocol')) {
     }
 }
 
-if (!function_exists('d'))
-{
+if (!function_exists('d')) {
     function d()
     {
         array_map(function ($x) {
             (new Dumper)->dump($x);
         }, func_get_args());
+    }
+}
+
+if (!function_exists('make_array')) {
+    function makeArray($var)
+    {
+        if (!is_array($var)) {
+            $var = [$var];
+        }
+
+        return $var;
     }
 }
