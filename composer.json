@@ -1,9 +1,9 @@
 {
-  "name": "phharrin/functions",
+  "name": "philsown/functions",
   "description": "Phillip Harrington's Functions",
   "license": "MIT",
-  "keywords": [ "functions", "library" ],
-  "homepage": "http://10.80.6.10/phharrin/functions",
+  "keywords": [ "functions", "library", "dump", "array" ],
+  "homepage": "https://phillipharrington.com/functions",
   "require": {
     "php": ">=5.5.9",
     "ext-mbstring": "*",
@@ -11,7 +11,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Phharrin\\Functions\\": "src/"
+      "Philsown\\Functions\\": "src/"
     },
     "files": [
       "src/functions.php"

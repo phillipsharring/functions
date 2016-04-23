@@ -1,6 +1,6 @@
 <?php
 
-use Phharrin\Functions\Debug\Dumper;
+use Philsown\Functions\Debug\Dumper;
 
 if (!function_exists('protocol')) {
     function protocol()

@@ -1,6 +1,6 @@
 <?php
 
-namespace Phharrin\Functions\Debug;
+namespace Philsown\Functions\Debug;
 
 use Symfony\Component\VarDumper\Dumper\CliDumper;
 use Symfony\Component\VarDumper\Cloner\VarCloner;
