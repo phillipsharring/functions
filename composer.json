@@ -4,6 +4,14 @@
   "license": "MIT",
   "keywords": [ "functions", "library", "dump", "array" ],
   "homepage": "https://phillipharrington.com/functions",
+  "authors": [
+    {
+      "name": "Phillip Harrington",
+      "email": "phillip@phillipharrington.com",
+      "homepage": "https://phillipharrington.com/",
+      "role": "developer"
+    }
+  ],
   "require": {
     "php": ">=5.5.9",
     "ext-mbstring": "*",
